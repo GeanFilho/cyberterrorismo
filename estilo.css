@@ -1,0 +1,108 @@
+body {
+	background-color: #F2FFFC;
+	font-family: "Crinson Text" , serif;
+	font-size: 20px;
+
+}
+
+main h1 {
+	font-size: 50px;
+	background-color: rgb(120 , 30 , 60);
+	color: #FAFFFA;
+	text-align: center;
+	font-family: "Arial";
+	padding: 30px;
+	margin: 0px;
+	text-transform: uppercase;
+	border-bottom: 8px solid black;
+
+}
+
+h2 {
+	font-size: 40px;
+	font-family: "Arial";
+	clear: both;
+}
+
+p {
+	text-align: justify;
+	margin: 35px 0;
+}
+ 
+blockquote {
+	background-color: #D3DDDA;
+	padding: 10px;
+	border: 10px;
+	border-color: #C2CCCA;
+	border-style: solid;
+	width: 250px;
+	margin: 10px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+em {
+	font-style: italic;
+}
+
+nav {
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+	text-align: center;
+	padding: 20px;
+	font-family: "Open Sans Condensed" , "sans-serif";	
+}
+
+nav h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+nav a {
+	color: inherit;
+	text-transform: lowercase;
+}
+
+nav img {
+	width: 40px;
+}
+
+footer {
+	background-color: #000;
+	color: #F2FFFC;
+	padding: 20px;
+	clear: both;
+	bottom: 0;
+	width: 100%;
+}
+
+aside li {
+	display: inline-block;
+}
+
+aside, .foto-legal{
+	float: right;
+	width: 15%;
+	box-sizing: border-box;
+	border-left: 8px solid black;
+	border-bottom: 8px solid black;
+	clear: right;
+}
+
+.bill {
+	float: right;
+}
+
+.arena {
+	float: left;
+}
+
+main {
+	float: left;
+	width: 85%;
+}
+
+a{
+	text-decoration: none;
+}
